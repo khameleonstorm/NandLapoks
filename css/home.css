@@ -576,6 +576,8 @@ padding: 18px 0px;
 margin: 20px 0px;
 background: transparent;
 border: none;
+outline: none;
+color: var(--white);
 border-bottom: 2px solid rgba(245, 245, 245, 0.342);
 }
 
