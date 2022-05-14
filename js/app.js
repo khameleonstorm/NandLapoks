@@ -12,5 +12,5 @@ function menu(e){
         burger.className = 'hamburger';
     }
 
-    e.preventDefault();
+    // e.preventDefault();
 };
