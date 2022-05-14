@@ -1,0 +1,333 @@
+.about-wcu{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 100px 0px;
+position: relative;
+top: 0px;
+left: 0px;
+}
+
+
+.about-wcu-img{
+width: 40%;
+}
+
+.about-wcu-img img{
+width: 90%;
+}
+
+.back-box{
+width: 200px;
+height: 200px;
+background: var(--logored);
+position: absolute;
+top: 85px;
+left: 120px;
+z-index: -50;
+}
+
+.about-wcu-exp{
+width: 40%;
+}
+
+.about-wcu-exp p{
+font-size: 0.9rem;
+}
+
+.about-wcu-exp-t h4{
+color: var(--logored);
+padding: 0px 0px 30px 0px;
+}
+
+.about-wcu-exp-t h1{
+font-size: 2.7rem;
+font-weight: 600;
+padding: 0px 0px;
+line-height: 1.2;
+padding: 0px 0px 20px 0px;
+}
+
+
+.about-wcu-exp-d{
+display: flex;
+justify-content: space-between;
+padding: 30px 0px 20px 0px;
+}
+
+.manufacture-column{
+width: 49%;
+}
+
+.manufacture{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
+}
+
+.manufacture img{
+width: 120%;
+padding-right: 20px;
+padding-top: 15px;
+}
+
+.manufacture p{
+font-size: 0.8rem;
+padding-top: 5px;
+}
+
+.engineering{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
+}
+
+.engineering img{
+width: 75%;
+padding-top: 10px;
+}
+
+.engineering p{
+font-size: 0.8rem;
+padding-top: 5px;
+}
+
+.sign{
+padding-top: 20px;
+}
+
+.construction-column{
+width: 49%;
+}
+
+.construction{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
+}
+
+
+.construction img{
+padding-top: 10px;
+padding-right: 10px;
+}
+
+.construction p{
+font-size: 0.8rem;
+padding-top: 5px;
+}
+
+
+.form-container{
+height: 400px;
+}
+
+.swiper-wrapper{
+width: 100%;
+display: flex;
+}
+
+.testimonial{
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+padding: 0px 200px;
+}
+
+.testimonial img{
+width: 90px;
+height: 90px;
+border-radius: 50%;
+margin: 30px 0px;
+}
+
+.testimonial h2{
+font-size: 1.2rem;
+}
+
+.testimonial h3{
+font-size: 1rem;
+padding-top: 20px;
+}
+
+.testimonial h3 span{
+font-weight: 400;
+}
+
+.know-more{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding-top: 230px;
+padding-bottom: 50px;
+}
+
+.know-more-t{
+width: 40%;
+}
+
+.know-more-t h4{
+color: var(--logored);
+padding-bottom: 20px;
+}
+
+.know-more-t h1{
+font-size: 2.6rem;
+font-weight: 600;
+letter-spacing: 0.3px;
+}
+
+.know-more-t p{
+font-size: .9rem;
+padding-bottom: 20px;
+}
+
+.why-choose-stats{
+width: 45%;
+padding-top: 120px;
+}
+
+.stats-text{
+color: black;
+}
+
+.progress-bar1{
+background: var(--verylightblack);
+}
+
+.progress-bar2{
+background: var(--verylightblack);
+}
+
+.progress-bar3{
+background: var(--verylightblack);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px){
+
+.about-wcu{
+flex-direction: column;
+padding: 50px 0px;
+}
+
+
+.about-wcu-img{
+width: 90%;
+}
+
+.about-wcu-img img{
+width: 100%;
+}
+
+.back-box{
+top: 30px;
+left: 5px;
+}
+
+.about-wcu-exp{
+width: 90%;
+padding-top: 30px;
+}
+
+.about-wcu-exp p{
+font-size: 0.8rem;
+}
+
+
+.about-wcu-exp-t h1{
+font-size: 1.7rem;
+}
+
+
+.about-wcu-exp-d{
+flex-direction: column-reverse;
+padding: 30px 0px 20px 0px;
+}
+
+.manufacture-column{
+width: 89%;
+}
+
+.manufacture img{
+padding-right: 60px;
+width: 140%;
+}
+
+.construction-column{
+width: 89%;
+}
+
+
+.construction img{
+padding-top: 10px;
+padding-right: 20px;
+}
+
+.detailed-numbers{
+padding-left: 30px;
+}
+
+.form-container{
+height: 350px;
+}
+
+.swiper-wrapper{
+width: 100%;
+display: flex;
+}
+
+.testimonial{
+padding: 0px 10px;
+}
+
+.testimonial img{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+margin: 30px 0px;
+}
+
+.testimonial h2{
+font-size: 0.8rem;
+font-weight: 200;
+line-height: 1.3;
+}
+
+.testimonial h3{
+font-weight: 300;
+font-size: 0.8rem;
+}
+
+.know-more{
+flex-direction: column;
+}
+
+.know-more-t{
+width: 90%;
+}
+
+.know-more-t h1{
+font-size: 1.7rem;
+}
+
+.why-choose-stats{
+width: 90%;
+}
+
+
+}

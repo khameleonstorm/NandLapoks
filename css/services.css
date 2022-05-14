@@ -1,0 +1,297 @@
+.services-section{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.services-t{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 50px 0px;
+}
+
+.services-t h5{
+font-size: 1rem;
+color: var(--logored);
+padding-bottom: 25px;
+padding-top: 30px;
+}
+
+.services-t h1{
+font-size: 2.5rem;
+line-height: 1;
+padding-bottom: 20px;
+}
+
+.services-t h1 span{
+color: var(--logored);
+}
+
+.services-t p{
+font-size: 0.9rem;
+}
+
+.services-boxes{
+width: 85%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 0px;
+}
+
+
+.services-boxes h2{
+color: var(--logored);
+font-size: 1.4rem;
+padding: 7px 0px;
+}
+
+.services-boxes p{
+font-size: 0.9rem;
+padding: 0px 10px 30px 10px;
+}
+
+.services-boxes img{
+width: 25%;
+padding: 15px;
+}
+
+.box1{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+.box1 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/service-img01-770x500.jpg);
+}
+
+.box2{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+.box2 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/service-img02-770x500.jpg);
+}
+
+
+.box3{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+.box3 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/project-img01.jpg);
+}
+
+
+.box4{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+
+
+.box4 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/service-img03-600x365.jpg);
+}
+
+
+.box5{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+
+
+.box5 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/project-img02.jpg);
+}
+
+
+.box6{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+
+
+.box6 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/project-img03.jpg);
+}
+
+
+.box7{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+
+
+.box7 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/blog-img03-770x500.jpg);
+}
+
+
+.box8{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+
+
+.box8 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/project-img04.jpg);
+}
+
+
+.box9{
+width: 30%;
+text-align: center;
+box-shadow: 2px 2px 5px 3px var(--verylightblack);
+}
+
+.box9 div:nth-child(1){
+height: 200px;
+background-position: center;
+background-size: cover;
+background-image: url(/img/project-img06.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+
+
+.display{
+height: 50vh;
+}
+
+.services-t{
+width: 90%;
+}
+
+.services-t h1{
+font-size: 2rem;
+}
+
+.services-t p{
+font-size: 0.8rem;
+}
+
+.services-boxes{
+width: 95%;
+flex-direction: column;
+padding: 30px 0px;
+}
+
+.services-boxes img{
+width: 35%;
+}
+
+.box1{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2);
+}
+
+.box2{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box3{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box3 img{
+width: 40%;
+padding: 5px;
+}
+
+.box4{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box5{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box6{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box7{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box8{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+.box9{
+width: 90%;
+margin-top: 30px;
+box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.2)
+}
+
+}
